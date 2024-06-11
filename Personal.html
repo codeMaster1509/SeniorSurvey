@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personal.css">
+    <title>Personal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" class="logo"><img src="images/ss.png" alt=""></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <!-- <li class="navbar__items">
+                    <a href="Academics.html" class="navbar__links">Academics</a>
+                </li> -->
+                <li class="navbar__items">
+                    <a href="Academics.html" class="navbar__links">Academics</a>
+                </li>
+                <li class="navbar__items">
+                    <a href="Career.html" class="navbar__links">Career</a>
+                </li>
+                <li class="navbar__items">
+                    <a href="Miscellaneous.html" class="navbar__links">Miscellaneous</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Main section-->
+
+    <div class="main">
+        <div class="main__container"></div>
+        <div class="main__content">
+            <h1>Personal</h1>
+            <p><span class="big-q">Q</span>  How frequently did you use dating apps during your stay at IIT?</p>
+            <img src="images/personal with text.png" alt="Personal Illustration" width="100%" style="display: block; margin-left: auto; margin-right: auto;">
+        
+            <p><span class="big-q">Q</span>  Which state would you call your native place?     </p>
+            <div class="chart">
+                <canvas id="doughnut1"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers1.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span> In which region did you primarily grow up in?     </p>
+            <div class="chart">
+                <canvas id="doughnut2"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers2.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>How close were you to your family while at college?     </p>
+            <div class="chart">
+                <canvas id="doughnut3"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers3.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>  What gender do you identify as?     </p>
+            <div class="chart">
+                <canvas id="doughnut4"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers4.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>What is your sexual orientation?     </p>
+            <div class="chart">
+                <canvas id="doughnut5"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers5.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>Do you identify with a different sexual orientation and/or gender identity than when you joined IIT?     </p>
+            <div class="chart">
+                <canvas id="doughnut6"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers6.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>On a scale form 1 to 5, how religious would you say you are?     </p>
+            <div class="chart">
+                <canvas id="doughnut7"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers7.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>To which end of the political spectrum do your views align?(1 - Liberal, 5 - Conservative)    </p>
+            <div class="chart">
+                <canvas id="doughnut8"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers8.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>What are your dietary preferences?     </p>
+            <div class="chart">
+                <canvas id="doughnut9"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers9.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>Did you receive any financial aid (through institute scholarships or loans) during your degree?     </p>
+            <div class="chart">
+                <canvas id="doughnut10"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers10.js" style="width: 500px; height: auto;"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>Have your family members attended any IIT for undergraduate or graduate study?     </p>
+            <div class="chart">
+                <canvas id="doughnut11"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers11.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>Did you face a language barrier at IIT Bombay? How did you overcome this barrier?     </p>
+            <div class="chart">
+                <canvas id="doughnut12"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers12.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>Have you ever considered pursuing and/or received mental health counselling or therapy?     </p>
+            <div class="chart">
+                <canvas id="doughnut13"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers13.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>What is your current relationship status?     </p>
+            <div class="chart">
+                <canvas id="doughnut14"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers14.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>How many people have you dated/been in a relationship with during your time at IITB?    </p>
+            <div class="chart">
+                <canvas id="doughnut15"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers15.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>On average, how frequently did you have sex?    </p>
+            <div class="chart">
+                <canvas id="doughnut16"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers16.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>If at all you consume alcohol, at what point did you start/have it for the first time?     </p>
+            <div class="chart">
+                <canvas id="doughnut17"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers17.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>How often do you consume alcohol?     </p>
+            <div class="chart">
+                <canvas id="doughnut18"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers18.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span> If at all you smoke, at what point did you start?     </p>
+            <div class="chart">
+                <canvas id="doughnut19"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers19.js"></script>
+            </div>
+        
+            <p><span class="big-q">Q</span>How often do you smoke cigarettes?    </p>
+            <div class="chart">
+                <canvas id="doughnut20"></canvas>
+                <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                <script src="Charts/pers20.js"></script>
+            </div>
+        </div>
+    </div>
+
+     
+</div>
+
+    <div class="footer">
+        <img src="images/ss.png" alt="Senior Survey 2024">
+        <div class="nav">
+            <a href="Academics.html">Academics</a>
+            <a href="Career.html">Career</a>
+            <a href="Miscellaneous.html">Miscellaneous</a>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
